@@ -13,6 +13,6 @@ Implementar os padrões de projeto explorados no Java puro e Spring-Framework.
 
 ## Tecnologias utilizadas
 - `Java`
-- `VS Code`
+- `SpringToolSuite4`
 - `Spring boot`
 - `Swagger`
