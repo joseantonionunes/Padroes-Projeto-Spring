@@ -1,0 +1,5 @@
+package padroes.projetos.spring.model;
+
+public interface EnderecoRepository {
+
+}

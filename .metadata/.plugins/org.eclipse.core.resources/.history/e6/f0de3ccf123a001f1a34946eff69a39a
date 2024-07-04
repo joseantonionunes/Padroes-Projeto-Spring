@@ -1,0 +1,22 @@
+package padroes.projetos.spring;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+import padroes.projetos.spring.model.Cliente;
+
+@EnableFeignClients
+@SpringBootApplication
+public class PadroesProjetosSpringApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PadroesProjetosSpringApplication.class, args);
+		
+		Cliente c1 = new Cliente();
+		
+		c1.setNome("Toni");
+		c1.setEndereco(14801788);
+	}
+
+}

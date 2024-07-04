@@ -1,0 +1,5 @@
+package padroes.projetos.spring.service.impl;
+
+public interface ClienteServiceImpl {
+
+}

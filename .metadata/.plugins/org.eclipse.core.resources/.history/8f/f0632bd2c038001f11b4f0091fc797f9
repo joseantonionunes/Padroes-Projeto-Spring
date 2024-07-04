@@ -1,0 +1,5 @@
+package padroes.projetos.spring.controler;
+
+public class ClienteRestController {
+
+}
